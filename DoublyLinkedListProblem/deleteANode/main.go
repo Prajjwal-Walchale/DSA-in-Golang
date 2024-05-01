@@ -1,7 +1,7 @@
 package main
 
 import (
-	dls "github.com/Prajjwal-Walchale/DSA-in-Golang/doublyLinkedList"
+	dls "github.com/prajjwal-w/data_structures_go/doublyLinkedList"
 )
 
 func deleteANodeFromLast(head *dls.Node) *dls.Node {

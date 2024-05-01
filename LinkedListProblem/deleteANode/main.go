@@ -1,7 +1,7 @@
 package main
 
 import (
-	ls "github.com/Prajjwal-Walchale/DSA-in-Golang/linkedList"
+	ls "github.com/prajjwal-w/data_structures_go/linkedList"
 )
 
 //var Node = linkedList.Node

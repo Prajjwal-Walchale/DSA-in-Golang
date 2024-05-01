@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	dls "github.com/Prajjwal-Walchale/DSA-in-Golang/doublyLinkedList"
+	dls "github.com/prajjwal-w/data_structures_go/doublyLinkedList"
 )
 
 func check(head *dls.Node, ele int) {

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	ls "github.com/Prajjwal-Walchale/DSA-in-Golang/linkedList"
+	ls "github.com/prajjwal-w/data_structures_go/linkedList"
 )
 
 func CountNodeOfLinkedList(head *ls.Node) int {
