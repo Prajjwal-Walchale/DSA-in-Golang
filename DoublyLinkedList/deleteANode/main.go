@@ -1,14 +1,13 @@
 package main
 
 import (
-	dls "github.com/Prajjwal-Walchale/DSA-in-Golang/DoublyLinkedList"
+	dls "github.com/Prajjwal-Walchale/DSA-in-Golang/doublyLinkedList"
 )
 
 func deleteANodeFromLast(head *dls.Node) *dls.Node {
 	if head == nil || head.Next == nil {
 		return nil
 	}
-
 	curr := head
 	for curr.Next.Next != nil {
 		curr = curr.Next
