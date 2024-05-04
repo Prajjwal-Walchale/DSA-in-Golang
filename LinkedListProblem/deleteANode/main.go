@@ -24,7 +24,7 @@ func deleteANodefromLast(head *ls.Node) *ls.Node {
 }
 
 func main() {
-	data := []int{10, 20, 30, 40}
+	data := []interface{}{10, 20, 30, 40}
 	linkedLst := ls.CreateLinkedList(data)
 
 	//linkedlistTraversal

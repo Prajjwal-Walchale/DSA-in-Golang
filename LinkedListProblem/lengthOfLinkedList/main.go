@@ -17,7 +17,7 @@ func CountNodeOfLinkedList(head *ls.Node) int {
 }
 
 func main() {
-	data := []int{12, 24, 16, 15, 19}
+	data := []interface{}{12, 24, 16, 15, 19}
 
 	//create linkedList
 	linkedList := ls.CreateLinkedList(data)

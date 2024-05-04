@@ -20,7 +20,7 @@ func FindTheElememtInTheList(head *ls.Node, ele int) int {
 
 func main() {
 	fmt.Println("statrted")
-	data := []int{1, 2, 3, -1, -2, 5}
+	data := []interface{}{1, 2, 3, -1, -2, 5}
 
 	//create linkedlist from the given data
 	linkedList := ls.CreateLinkedList(data)
